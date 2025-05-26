@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programa Energía Solar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      color: #0077b6;
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #023e8a;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input[type="text"], input[type="tel"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .question {
+      margin-top: 15px;
+    }
+    .question label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .question input[type="radio"] {
+      margin-right: 8px;
+    }
+    button {
+      background-color: #00b4d8;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #0096c7;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Nuevo programa de</h1>
+    <h2>energía solar que te paga hasta $1,200!</h2>
+    <form>
+      <input type="text" name="name" placeholder="Nombre y Apellido" required>
+      <input type="tel" name="phone" placeholder="Teléfono" required>
+      <input type="email" name="email" placeholder="Correo Electrónico" required>
+
+      <div class="question">
+        <label>¿Estás interesado(a) en una consulta gratuita?</label>
+        <input type="radio" name="consulta" value="si"> Sí
+        <input type="radio" name="consulta" value="no"> No
+      </div>
+
+      <div class="question">
+        <label>¿Tienes techo propio donde instalar paneles solares?</label>
+        <input type="radio" name="techo" value="si"> Sí
+        <input type="radio" name="techo" value="no"> No
+      </div>
+
+      <button type="submit">¡CUALIFICA HOY!</button>
+    </form>
+    <div class="footer">
+      Sin importar crédito | $0 inversión | Garantía ilimitada
+    </div>
+  </div>
+</body>
+</html>
