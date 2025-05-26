@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Energía Solar</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      margin-top: 50px;
+    }
+    h1 {
+      text-align: center;
+      color: #0077b6;
+    }
+    input, label {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    input[type="text"], input[type="tel"], input[type="email"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .question {
+      margin-bottom: 15px;
+    }
+    .question span {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .question label {
+      display: inline;
+      margin-right: 20px;
+    }
+    button {
+      background-color: #00b4d8;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0096c7;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Nuevo programa de energía solar que te paga hasta $1,200!</h1>
+    <form action="https://formsubmit.co/tuemail@ejemplo.com" method="POST">
+      <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" required>
+      <input type="tel" name="Teléfono" placeholder="Teléfono" required>
+      <input type="email" name="Correo Electrónico" placeholder="Correo Electrónico" required>
+
+      <div class="question">
+        <span>¿Estás interesado(a) en una consulta gratuita?</span>
+        <label><input type="radio" name="Consulta Gratuita" value="Sí" required> Sí</label>
+        <label><input type="radio" name="Consulta Gratuita" value="No" required> No</label>
+      </div>
+
+      <div class="question">
+        <span>¿Tienes techo propio donde instalar paneles solares?</span>
+        <label><input type="radio" name="Techo Propio" value="Sí" required> Sí</label>
+        <label><input type="radio" name="Techo Propio" value="No" required> No</label>
+      </div>
+
+      <button type="submit">¡CUALIFICA HOY!</button>
+    </form>
+    <div class="footer">
+      Sin importar crédito | $0 inversión | Garantía ilimitada
+    </div>
+  </div>
+</body>
+</html>
